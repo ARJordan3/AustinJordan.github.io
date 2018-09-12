@@ -7,3 +7,12 @@
 @import "contact.css";
 @import "footer.css";
 @import "main.css";
+
+body{
+    background-color: blue;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
