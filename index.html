@@ -36,95 +36,105 @@
                             <a class="dropdown-item" href="#">Feed back</a>
                           </div>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
+                       
                       </ul>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-                      </form>
+                      
                     </div>
                   </nav>
+                  
 
 
                   <div class="jumbotron">
                       <div class="container">
                       <div class="row">
-                          <div class="col-6">
+                        <div class="col-6">
                         <h1 class="display-4">Hello, welcome to my portfolio!</h1>
-                        <p class="lead">Here you can learn a little about myself and my ablities. Enjoy.</p>
                         <hr class="my-4">
-                        <p>Simply click the button below to learn more about me.</p>
-                        <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
-                          
+                        <h1>Header</h1>
+                        <p class="lead">Allow me to share a few things with you about myself and some of my accomplishments. Enjoy.</p>
+                        <hr class="my-4">
+                        <h2>About Me</h2>
+                        <p>About me content</p>
+                        <hr class="my-4">
+                        <h3>Projects</h3>
+                        <ol>
+                          <li><a href="https://codepen.io/El-Gato-Grande/">CSS Creature</a></li>
+                          <li><a href="https://arjordan3.github.io/webby/">Store Front Website</a></li>
+                          <li><a href="https://console.firebase.google.com/u/0/project/apithing-f347e/hosting/main">API Project</a></li>
+                        </ol>
+                        
+                        <hr class="my-4">
+                        <h1>Footer</h1>
+                        <p>Thank you for viewing my portfolio! Feel free to contact me should you wish to do so. Have a good day!</p>
+
+                             
+                        <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">                     
                         </div>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                       </div>
-                      <section id="about"></section>
-
-                      <section id="portfolio"></section>
-
                       <section id="contact">
-                            <div class="container">
-                              <h2 class="text-center text-uppercase">Contact Me</h2>
-                              <div class="row">
-                                <form action="https://formspree.io/arjordan3276@gmail.com" method="POST">
-                                  <div class="control-group">
-                                    <div class="form-group">
-                                      <label>Name</label>
-                                      <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Your Name"
-                                        id="name"
-                                        required
-                                        data-validation-required-message="Please enter your name"
-                                        name="name"
-                                        >
-                                      <p class="help-block text-danger"></p>
-                                    </div>
-                                  </div>
-                                  <div class="control-group">
-                                    <div class="form-group">
-                                      <label>Email Address</label>
-                                      <input
-                                        type="email"
-                                        class="form-control"
-                                        placeholder="Your Email"
-                                        id="email"
-                                        required
-                                        data-validation-required-message="Please enter your email"
-                                        name="_replyto"
+                          <div class="container">
+                            <h2 class="text-center text-uppercase">Contact Me</h2>
+                            <div class="row">
+                              <form action="https://formspree.io/arjordan3276@gmail.com" method="POST">
+                                <div class="control-group">
+                                  <div class="form-group">
+                                    <label>Name</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Your Name"
+                                      id="name"
+                                      required
+                                      data-validation-required-message="Please enter your name"
+                                      name="name"
                                       >
-                                      <p class="help-block text-danger"></p>
-                                    </div>
+                                    <p class="help-block text-danger"></p>
                                   </div>
-                                  <div class="control-group">
-                                    <div class="form-group">
-                                      <textarea
-                                        class="form-control"
-                                        rows="7"
-                                        placeholder="Message me."
-                                        id="message"
-                                        required
-                                        data-validation-required-message="Please leave a message"
-                                        name="message"
-                                      ></textarea>
-                                      <p class="help-block text-danger"></p>
-                                    </div>
+                                </div>
+                                <div class="control-group">
+                                  <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input
+                                      type="email"
+                                      class="form-control"
+                                      placeholder="Your Email"
+                                      id="email"
+                                      required
+                                      data-validation-required-message="Please enter your email"
+                                      name="_replyto"
+                                    >
+                                    <p class="help-block text-danger"></p>
                                   </div>
-                                  <div class="text-center">
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn btn-lg btn-black">
-                                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                      Send Message
-                                    </button>
+                                </div>
+                                <div class="control-group">
+                                  <div class="form-group">
+                                    <label>Leave me some words.</label>
+                                    <textarea
+                                      class="form-control"
+                                      rows="7"
+                                      placeholder="Your Message."
+                                      id="message"
+                                      required
+                                      data-validation-required-message="Please leave a message"
+                                      name="message"
+                                    ></textarea>
+                                    <p class="help-block text-danger"></p>
                                   </div>
-                                </form>
-                              </div>
+                                </div>
+                                <div class="text-center">
+                                  <div id="success"></div>
+                                  <button type="submit" class="btn btn-lg btn-black">
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    Send Message
+                                  </button>
+                                </div>
+                              </form>
                             </div>
-                          </section>
+                          </div>
+                        </section>
+                        <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+                          </div>
+                        </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
         crossorigin="anonymous"></script>
@@ -135,7 +145,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
         crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
-    </body>
+      </body>
 </html>
 
  

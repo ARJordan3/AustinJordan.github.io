@@ -14,5 +14,18 @@ body{
 
 .jumbotron{
     background-color: white;
+    text-align: center;
 }
 
+#contact{
+    background-color:white;
+    border: solid black;
+    text-align: center;
+    margin: 150px;
+    margin-top: 10px;
+    height: 600px;
+}
+
+.row{
+    text-align: center;
+}
